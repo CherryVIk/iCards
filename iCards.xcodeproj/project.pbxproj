@@ -3,33 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006A4318E4E2AD87C2615F34 /* Pods_iCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E982741A569232CFF90D729 /* Pods_iCards.framework */; };
 		D14119CE24DE821E008BB6DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14119CD24DE821E008BB6DC /* AppDelegate.swift */; };
 		D14119D024DE821E008BB6DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14119CF24DE821E008BB6DC /* SceneDelegate.swift */; };
 		D14119D224DE821E008BB6DC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14119D124DE821E008BB6DC /* TableViewController.swift */; };
-		D14119D524DE821E008BB6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14119D324DE821E008BB6DC /* Main.storyboard */; };
 		D14119D824DE821E008BB6DC /* iCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D14119D624DE821E008BB6DC /* iCards.xcdatamodeld */; };
 		D14119DA24DE8221008BB6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14119D924DE8221008BB6DC /* Assets.xcassets */; };
 		D14119DD24DE8221008BB6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14119DB24DE8221008BB6DC /* LaunchScreen.storyboard */; };
 		D14119E724DF145D008BB6DC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14119E624DF145D008BB6DC /* ProfileViewController.swift */; };
 		D14119EB24DF1532008BB6DC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14119EA24DF1532008BB6DC /* ProfileView.swift */; };
+		D14119EF24DF55F2008BB6DC /* EBGaramond-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D14119ED24DF55F2008BB6DC /* EBGaramond-VariableFont_wght.ttf */; };
+		D14119F024DF55F2008BB6DC /* EBGaramond-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D14119EE24DF55F2008BB6DC /* EBGaramond-Italic-VariableFont_wght.ttf */; };
+		D14119F224DF5602008BB6DC /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D14119F124DF5601008BB6DC /* Lobster-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E982741A569232CFF90D729 /* Pods_iCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1392D5DAC449E0128AA9DAA9 /* Pods-iCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCards.debug.xcconfig"; path = "Target Support Files/Pods-iCards/Pods-iCards.debug.xcconfig"; sourceTree = "<group>"; };
+		26C3A99F8747989E621A9A62 /* Pods-iCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCards.release.xcconfig"; path = "Target Support Files/Pods-iCards/Pods-iCards.release.xcconfig"; sourceTree = "<group>"; };
 		D14119CA24DE821E008BB6DC /* iCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14119CD24DE821E008BB6DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D14119CF24DE821E008BB6DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D14119D124DE821E008BB6DC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		D14119D424DE821E008BB6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D14119D724DE821E008BB6DC /* iCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCards.xcdatamodel; sourceTree = "<group>"; };
 		D14119D924DE8221008BB6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D14119DC24DE8221008BB6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D14119DE24DE8221008BB6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D14119E624DF145D008BB6DC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D14119EA24DF1532008BB6DC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D14119ED24DF55F2008BB6DC /* EBGaramond-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EBGaramond-VariableFont_wght.ttf"; path = "EB_Garamond,Lobster/EB_Garamond/EBGaramond-VariableFont_wght.ttf"; sourceTree = SOURCE_ROOT; };
+		D14119EE24DF55F2008BB6DC /* EBGaramond-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EBGaramond-Italic-VariableFont_wght.ttf"; path = "EB_Garamond,Lobster/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf"; sourceTree = SOURCE_ROOT; };
+		D14119F124DF5601008BB6DC /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lobster-Regular.ttf"; path = "EB_Garamond,Lobster/Lobster/Lobster-Regular.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006A4318E4E2AD87C2615F34 /* Pods_iCards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64F208B4DFE199215926039B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E982741A569232CFF90D729 /* Pods_iCards.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D14119C124DE821E008BB6DC = {
 			isa = PBXGroup;
 			children = (
 				D14119CC24DE821E008BB6DC /* iCards */,
 				D14119CB24DE821E008BB6DC /* Products */,
+				F9D9232BF5527F60CC8BC8F4 /* Pods */,
+				64F208B4DFE199215926039B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +81,7 @@
 		D14119CC24DE821E008BB6DC /* iCards */ = {
 			isa = PBXGroup;
 			children = (
+				D14119EC24DF55D0008BB6DC /* Fonts */,
 				D14119CD24DE821E008BB6DC /* AppDelegate.swift */,
 				D14119CF24DE821E008BB6DC /* SceneDelegate.swift */,
 				D14119E524DE8233008BB6DC /* Controllers */,
@@ -77,7 +97,6 @@
 		D14119E424DE822A008BB6DC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D14119D324DE821E008BB6DC /* Main.storyboard */,
 				D14119EA24DF1532008BB6DC /* ProfileView.swift */,
 			);
 			path = Views;
@@ -92,6 +111,25 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		D14119EC24DF55D0008BB6DC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D14119EE24DF55F2008BB6DC /* EBGaramond-Italic-VariableFont_wght.ttf */,
+				D14119ED24DF55F2008BB6DC /* EBGaramond-VariableFont_wght.ttf */,
+				D14119F124DF5601008BB6DC /* Lobster-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F9D9232BF5527F60CC8BC8F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1392D5DAC449E0128AA9DAA9 /* Pods-iCards.debug.xcconfig */,
+				26C3A99F8747989E621A9A62 /* Pods-iCards.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D14119E124DE8221008BB6DC /* Build configuration list for PBXNativeTarget "iCards" */;
 			buildPhases = (
+				3A3C7B32C6362DA0952103AC /* [CP] Check Pods Manifest.lock */,
 				D14119C624DE821E008BB6DC /* Sources */,
 				D14119C724DE821E008BB6DC /* Frameworks */,
 				D14119C824DE821E008BB6DC /* Resources */,
+				F1E8B56F2FF4E2D36AB5E8F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,13 +190,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D14119F224DF5602008BB6DC /* Lobster-Regular.ttf in Resources */,
 				D14119DD24DE8221008BB6DC /* LaunchScreen.storyboard in Resources */,
+				D14119F024DF55F2008BB6DC /* EBGaramond-Italic-VariableFont_wght.ttf in Resources */,
 				D14119DA24DE8221008BB6DC /* Assets.xcassets in Resources */,
-				D14119D524DE821E008BB6DC /* Main.storyboard in Resources */,
+				D14119EF24DF55F2008BB6DC /* EBGaramond-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A3C7B32C6362DA0952103AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E8B56F2FF4E2D36AB5E8F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCards/Pods-iCards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCards/Pods-iCards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iCards/Pods-iCards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D14119C624DE821E008BB6DC /* Sources */ = {
@@ -175,14 +259,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D14119D324DE821E008BB6DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D14119D424DE821E008BB6DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D14119DB24DE8221008BB6DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -310,6 +386,7 @@
 		};
 		D14119E224DE8221008BB6DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1392D5DAC449E0128AA9DAA9 /* Pods-iCards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -328,6 +405,7 @@
 		};
 		D14119E324DE8221008BB6DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C3A99F8747989E621A9A62 /* Pods-iCards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

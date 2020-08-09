@@ -9,11 +9,17 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+    
+    var profile : ProfileView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        profile = ProfileView(frame: CGRect.zero)
+               self.view.addSubview(profile)
+               
+               // AutoLayout
+               profile.autoPinEdgesToSuperviewEdges(with: UIEdgeInsets.zero)
+               
     }
 
     
